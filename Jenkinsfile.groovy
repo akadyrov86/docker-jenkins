@@ -7,7 +7,7 @@ node{
          catch(exec){
              sh "echo container deleted"
          }   
-        sh "ssh docker run -d Flaskex -p 6000:4000 farrukhsadyrkov/flaskex"
+        sh "ssh docker run -d Flaskex -p 4400:4000 farrukhsadyrkov/flaskex"
     
     }
 }
